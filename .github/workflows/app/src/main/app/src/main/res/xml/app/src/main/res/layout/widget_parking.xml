@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="#E6121826"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🅿️ ParkSense 주차 위치"
+        android:textColor="#94A3B8"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tv_widget_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주차 기록 없음"
+        android:textColor="#38BDF8"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tv_widget_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="차량 BT 해제 시 자동 저장"
+        android:textColor="#F8FAFC"
+        android:textSize="13sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tv_widget_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#64748B"
+        android:textSize="10sp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
